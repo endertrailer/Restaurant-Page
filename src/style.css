@@ -1,0 +1,93 @@
+html, *{
+    height: 100%;
+     
+     margin: 0;
+     padding: 0;
+}
+#content{
+    display: grid;
+    grid-template-rows: 85px 1fr;
+    height: 200%;
+    /* background-color: rgb(234, 55, 55); */
+    /* background-image: url(https://www.rxwallpaper.site/wp-content/uploads/space-wallpapers-1920x1080-wallpaper-cave-2.jpg); */
+    background-image: url(https://wallpaperaccess.com/full/1253115.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+.headbar{
+    /* background-color: rgb(61, 173, 207); */
+    display: grid;
+    grid-template-columns: 1fr 400px 1fr;
+}
+.selections{
+    display: grid;
+    grid-column-start: 2;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.selection{
+    display: grid;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 60px;
+}
+
+.selection:hover{
+    /* background-color: cornflowerblue; */
+    cursor: pointer;
+}
+.midarea{
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    border: 1px solid rgb(42, 42, 190);
+    width: 750px;
+    justify-self: center;
+    margin-bottom: 10px;
+    height: 1200px;
+    border-radius: 5%;
+}
+.barbox{
+    display: grid;
+    justify-content: center;
+    
+}
+.bar{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    color: rgb(233, 51, 240); 
+    font-size: 40px;
+    border: 1px aliceblue solid;
+    width: 600px;
+    border-radius: 100px;
+    height: 50px;
+    align-self: center;
+    background-image: url(https://th.bing.com/th/id/OIP.TMDM7p_AWBLGdgAE4hEokAHaFa?pid=ImgDet&rs=1);
+}
+.mid-section{
+    display: grid;
+    
+}
+.mid-box{
+    display: grid;
+    color:plum;
+    font-size: 24px;
+    font-weight: bolder;
+    width: 450px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-self: center;
+    align-self: center;
+    /* background: linear-gradient(to right, red, purple); */
+}
+.mid-text{
+    border: rgb(47, 182, 137) solid 5px;
+    
+    border-style: groove;
+    height: 70%; 
+    border-radius: 30px;
+    padding: 10px;
+}
