@@ -1,0 +1,52 @@
+.menu-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 20px;
+    gap: 20px;
+    padding: 10px;
+}
+
+.cell{
+    display: grid;
+    border: greenyellow 1px solid;
+    border-radius: 20px;
+    grid-template-rows: 60px 1fr 80px;
+    
+}
+
+.name{
+    display: grid;
+    font-size: 40px;
+    color: chocolate;
+    align-items: center;
+    justify-items: center;
+}
+.pic{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 80px 1fr;
+}
+
+img{
+    height: 180px;
+    width: 180px;
+    border-radius: 20px;
+}
+
+.price{
+    display: grid;
+    color: rgb(37, 180, 97);
+    font-size: 40px;
+    margin-left: 10px;
+    justify-content: end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* align-items: center; */
+
+}
+
+.desc{
+    display: grid;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(230, 56, 236);
+}
