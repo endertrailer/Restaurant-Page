@@ -1,63 +1,65 @@
-export { contactPage };
-function contactPage(){
-  const content = document.querySelector('#content');
- // Create elements and set their classes, text content, and attributes
-const headbar = document.createElement('div');
-headbar.classList.add('headbar');
+import managerImg from '../src/images/manager.jpeg';
+import rickImg from '../src/images/rick.jpeg';
+import chefImg from '../src/images/chef.jpeg';
 
-const selections = document.createElement('div');
-selections.classList.add('selections');
+export function contactPage() {
+    const content = document.querySelector('#content');
 
-const selectionHome = document.createElement('div');
-selectionHome.classList.add('selection');
-selectionHome.textContent = 'Home';
+    const headbar = document.createElement('div');
+    headbar.classList.add('headbar');
 
-const selectionMenu = document.createElement('div');
-selectionMenu.classList.add('selection');
-selectionMenu.textContent = 'Menu';
+    const selections = document.createElement('div');
+    selections.classList.add('selections');
 
-const selectionContact = document.createElement('div');
-selectionContact.classList.add('selection');
-selectionContact.textContent = 'Contact';
-selectionContact.style.backgroundColor = 'cornflowerblue';
+    const selectionHome = document.createElement('div');
+    selectionHome.classList.add('selection');
+    selectionHome.textContent = 'Home';
 
-const midarea = document.createElement('div');
-midarea.classList.add('midarea');
+    const selectionMenu = document.createElement('div');
+    selectionMenu.classList.add('selection');
+    selectionMenu.textContent = 'Menu';
 
-const barbox = document.createElement('div');
-barbox.classList.add('barbox');
+    const selectionContact = document.createElement('div');
+    selectionContact.classList.add('selection');
+    selectionContact.textContent = 'Contact';
+    selectionContact.style.backgroundColor = 'cornflowerblue';
 
-const bar = document.createElement('div');
-bar.classList.add('bar');
-bar.textContent = 'Contact us';
+    const midarea = document.createElement('div');
+    midarea.classList.add('midarea');
 
-const contacts = document.createElement('div');
-contacts.classList.add('contacts');
+    const barbox = document.createElement('div');
+    barbox.classList.add('barbox');
 
-// Details of contacts
-const contactDetails = [
-    {
-        name: 'Manager Rob Banks',
-        email: 'RobBanks1100998@Astro.com',
-        phone: '111-999-222',
-        address: 'GalactiCom: ST-ALPH-TH9',
-        image: '../src/images/manager.jpeg'
-    },
-    {
-        name: 'Reciption Rick Sanchez',
-        email: 'Ricksanchez57811@Astro.com',
-        phone: '555-222-777',
-        address: 'GalactiCom: NB-NX-3G6T1D',
-        image: '../src/images/rick.jpeg'
-    },
-    {
-        name: 'Chef Luna Ling',
-        email: 'Lunaling55466288@Astro.com',
-        phone: '111-999-222',
-        address: 'GalactiCom: ST-ALPH-TH9',
-        image: '../src/images/chef.jpeg'
-    }
-];
+    const bar = document.createElement('div');
+    bar.classList.add('bar');
+    bar.textContent = 'Contact us';
+
+    const contacts = document.createElement('div');
+    contacts.classList.add('contacts');
+
+    const contactDetails = [
+        {
+            name: 'Manager Rob Banks',
+            email: 'RobBanks1100998@Astro.com',
+            phone: '111-999-222',
+            address: 'GalactiCom: ST-ALPH-TH9',
+            imageSrc: managerImg
+        },
+        {
+            name: 'Reception Rick Sanchez',
+            email: 'Ricksanchez57811@Astro.com',
+            phone: '555-222-777',
+            address: 'GalactiCom: NB-NX-3G6T1D',
+            imageSrc: rickImg
+        },
+        {
+            name: 'Chef Luna Ling',
+            email: 'Lunaling55466288@Astro.com',
+            phone: '111-999-222',
+            address: 'GalactiCom: ST-ALPH-TH9',
+            imageSrc: chefImg
+        }
+    ];
 
 // Create contact boxes using contact details
 contactDetails.forEach(contact => {
