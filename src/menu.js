@@ -53,9 +53,9 @@ export function menuPage() {
         { name: 'Nebula Delight Pizza', price: '100$', imgSrc: pizzaImg, desc: 'Nebula Delight Pizza: A cosmic culinary marvel boasting celestial flavors atop a heavenly crust delight.' }
     ];
 
-    selection.appendChild(selectionHome);
-    selection.appendChild(selectionMenu);
-    selection.appendChild(selectionContact);
+    selections.appendChild(selectionHome);
+    selections.appendChild(selectionMenu);
+    selections.appendChild(selectionContact);
     headbar.appendChild(selections);
     content.appendChild(headbar);
     content.appendChild(midArea);

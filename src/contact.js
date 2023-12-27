@@ -91,7 +91,7 @@ contactDetails.forEach(contact => {
     const contact_img = document.createElement('img');
     contact_img.classList.add('contact_img');
     contact_img.alt = 'some';
-    contact_img.src = contact.image;
+    contact_img.src = contact.imageSrc;
 
     contact_id.appendChild(email);
     contact_id.appendChild(phone);
