@@ -1,4 +1,6 @@
 import './style.css';
+import './style2.css';
+import './style3.css';
 import {loadPage} from './home.js';
 import {menuPage} from './menu.js';
 import { contactPage } from './contact';
