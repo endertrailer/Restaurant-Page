@@ -1,3 +1,4 @@
+import restrauntImg from '../src/images/space restraunt.jpeg'
 export function loadPage() {
   const content = document.querySelector('#content');
   
@@ -45,7 +46,7 @@ export function loadPage() {
   const description = document.createElement('div');
   description.classList.add('mid-desc');
   description.innerHTML = `
-    <img src="https://th.bing.com/th/id/OIG.ZVIEi.aopPbet7YzuPG_?pid=ImgGn" alt="restaurant" class="view">
+    <img src="${restrauntImg}" alt="restaurant" class="view">
     <div class="description">
       Indulge in the extraordinary at AstroBite, where we bring the universe to your plate. Taste the cosmos with celestial cuisine that is truly out of this world. Join us for a stellar dining experience that is simply cosmic!
     </div>

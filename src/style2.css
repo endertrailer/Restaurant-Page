@@ -13,9 +13,9 @@
     grid-template-rows: 60px 1fr 80px;
     /* background-image: url(https://wallpaperaccess.com/full/1253115.jpg); */
 }
-.cell:hover{
+/* .cell:hover{
     background-image: url(https://th.bing.com/th/id/OIG.D1ne6YcZ8PGa8Wv6WSB4?pid=ImgGn);
-}
+} */
 
 .name{
     display: grid;
